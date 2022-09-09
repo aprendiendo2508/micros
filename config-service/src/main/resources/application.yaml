@@ -6,9 +6,7 @@ spring:
    server:
     git:
      default-label: config-server
-     uri: https://aprendiendo2508@bitbucket.org/aprendiendo2508/micro_servicios.git
-     username: aprendiendo2508
-     password: 10072811Nicolas
+     uri: https://github.com/aprendiendo2508/microservicios.git
      search-paths: config-data
 application:
  name: config-service
