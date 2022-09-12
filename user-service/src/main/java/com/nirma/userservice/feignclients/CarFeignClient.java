@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import com.nirma.userservice.model.Car;
 
-@FeignClient(name="car-servise",url="http://localhost:8011/car")
+@FeignClient(name="car-servise")
 
 public interface CarFeignClient {
 	

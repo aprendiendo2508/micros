@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import com.nirma.userservice.model.Bike;
 
-@FeignClient(name = "bike-service" , url="http://localhost:8082/bike")
+@FeignClient(name = "bike-service" )
 public interface BikeFeignClient {
 	@PostMapping()
 	Bike save(@RequestBody Bike bike);
